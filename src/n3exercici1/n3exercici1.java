@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class n3exercici1 {
+	static ArrayList<Redactor> redactors = new ArrayList<Redactor>();
 
 	public static void main(String[] args) {
 		byte opcio = 0;
@@ -62,7 +63,6 @@ public class n3exercici1 {
 	}
 	public static void introduirRedactor() {
 		
-		ArrayList<Redactor> redactors = new ArrayList<Redactor>();
 		Scanner sc = new Scanner(System.in);
 		Redactor newRedactor = new Redactor(0);
 
